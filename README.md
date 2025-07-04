@@ -1,7 +1,7 @@
 # Intro
 
-[![Spelling](https://github.com/redhat-na-ssa/demo-ai-gitops-catalog/actions/workflows/spellcheck.yaml/badge.svg)](https://github.com/redhat-na-ssa/demo-ai-gitops-catalog/actions/workflows/spellcheck.yaml)
-[![Linting](https://github.com/redhat-na-ssa/demo-ai-gitops-catalog/actions/workflows/linting.yaml/badge.svg)](https://github.com/redhat-na-ssa/demo-ai-gitops-catalog/actions/workflows/linting.yaml)
+[![Spelling](https://github.com/redhat-na-ssa/demo-ocp-template/actions/workflows/spellcheck.yaml/badge.svg)](https://github.com/redhat-na-ssa/demo-ocp-template/actions/workflows/spellcheck.yaml)
+[![Linting](https://github.com/redhat-na-ssa/demo-ocp-template/actions/workflows/linting.yaml/badge.svg)](https://github.com/redhat-na-ssa/demo-ocp-template/actions/workflows/linting.yaml)
 
 The intention of this repository is to help support practical use of OpenShift for workloads and provide a collection of configurations / demos / workshops.
 
