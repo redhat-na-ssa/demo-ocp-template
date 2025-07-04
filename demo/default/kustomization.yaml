@@ -6,5 +6,5 @@ components:
   - ../../module/local/cluster-configs/adhoc-admin
   - ../../module/remote/cluster-configs/login
   - ../../module/local/cluster-configs/no-self-provisioner
-  
+
   - ../../module/local/operators/web-terminal
