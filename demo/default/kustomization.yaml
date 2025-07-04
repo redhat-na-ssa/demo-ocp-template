@@ -3,7 +3,7 @@ kind: Kustomization
 
 components:
   - ../../module/local/cluster-configs/branding
-  - ../../module/local/cluster-configs/helper-job-custom
+  - ../../module/local/cluster-configs/adhoc-admin
   - ../../module/remote/cluster-configs/login
   - ../../module/local/cluster-configs/no-self-provisioner
   

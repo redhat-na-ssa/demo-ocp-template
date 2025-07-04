@@ -4,8 +4,8 @@ kind: Component
 namespace: adhoc-admin
 
 components:
-  - https://github.com/redhat-na-ssa/demo-ai-gitops-catalog/components/cluster-configs/adhoc-admin/components/helper?ref=main
   - https://github.com/redhat-na-ssa/demo-ai-gitops-catalog/components/cluster-configs/adhoc-admin?ref=main
+  - https://github.com/redhat-na-ssa/demo-ai-gitops-catalog/components/cluster-configs/adhoc-admin/components/helper-job-custom?ref=main
 
 generatorOptions:
   disableNameSuffixHash: true
@@ -13,7 +13,7 @@ generatorOptions:
 configMapGenerator:
   - name: demo-adhoc
     files:
-      - scripts/00-adhoc.sh
+      - scripts/00-init.sh
 
 patches:
   - path: patch-job.yaml
