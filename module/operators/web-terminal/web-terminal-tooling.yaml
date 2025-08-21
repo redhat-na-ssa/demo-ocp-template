@@ -17,12 +17,16 @@ spec:
           - |
             #!/bin/bash
 
+            [ -d "$HOME/bin" ] || mkdir "$HOME/bin"
+
             echo "
             GIT_REPO=https://github.com/redhat-na-ssa/demo-ocp-template.git
             GIT_PATH=demo
 
             [ -e ~/\${GIT_PATH} ] || git clone \${GIT_REPO} ~/\${GIT_PATH}
             [ -e ~/\${GIT_PATH} ] && cd ~/\${GIT_PATH}
+
+            [ -d \"\${HOME}/bin\" ] && PATH=\${HOME}/bin:\${PATH}
 
             " >> /home/user/.bashrc
 
