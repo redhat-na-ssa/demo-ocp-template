@@ -1,0 +1,102 @@
+## Project information
+site_name: OpenShift Demo - Example
+site_description: >-
+  Example Demo on OpenShift!
+
+docs_dir: docs
+site_dir: site
+
+## Repository
+repo_url: https://github.com/redhat-na-ssa/demo-ocp-template
+edit_uri: blob/main/docs/
+# edit_uri: ''  #disables edit button
+
+## Plugins
+plugins:
+  - offline
+  - search
+  - tags
+
+## Theme
+theme:
+  name: material
+  # icon:
+  #   repo: fontawesome/brands/github
+  #   logo: assets/logo.svg
+  #   favicon: assets/logo.ico
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+      primary: black
+      accent: red
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+      primary: black
+      accent: red
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+
+## Social
+extra:
+  # analytics:
+  #   provider: google
+  #   property: G-UUID
+  consent:
+    title: Cookie consent
+    description: >-
+      If you like cookies, come join us on the dark side.
+
+## MD Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - codehilite:
+      linenums: true
+  - def_list
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: "!!python/name:pymdownx.emoji.to_svg"
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: "!!python/name:pymdownx.superfences.fence_code_format"
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
+  - footnotes
+  - codehilite:
+      use_pygments: false
+
+## Site layout
+nav:
+  - Home: index.md
