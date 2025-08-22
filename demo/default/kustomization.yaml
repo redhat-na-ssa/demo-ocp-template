@@ -3,8 +3,9 @@ kind: Kustomization
 
 components:
   - ../../module/cluster-configs/branding
-  - ../../module/cluster-configs/adhoc-admin
   - ../../module/cluster-configs/login
   - ../../module/cluster-configs/no-self-provisioner
 
   - ../../module/operators/web-terminal
+
+  - ../../module/cluster-configs/adhoc-admin

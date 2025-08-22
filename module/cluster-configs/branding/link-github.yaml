@@ -1,11 +1,11 @@
 apiVersion: console.openshift.io/v1
 kind: ConsoleLink
 metadata:
-  name: github-jump-start
+  name: github-demo
 spec:
   href: 'https://github.com/redhat-na-ssa/demo-ocp-template'
   location: ApplicationMenu
-  text: GitHub - Demo Jump Start
+  text: Demo - Template
   applicationMenu:
     section: Git Repos
     imageURL: /static/assets/public/imgs/logos/github.svg
